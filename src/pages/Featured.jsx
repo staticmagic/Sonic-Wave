@@ -7,7 +7,7 @@ export default function Featured({ tracks }) {
   return (
     <div className="page">
       <h1 style={{ marginTop: 0 }}>Weekly Featured Artist</h1>
-      <p className="sub">Rotates weekly (date-based logic). Highlights smaller creators.</p>
+      <p className="sub">Rotates weekly. Highlights smaller creators.</p>
 
       <div className="card">
         {t ? (
